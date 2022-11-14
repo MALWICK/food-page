@@ -141,7 +141,7 @@ main {
 }
 
 .active:hover {
-  color: rgb(23, 22, 22);
+  color: #171616;
   background-color: #f8fafa;
   border-radius: 1 solid black 5px;
 }
@@ -317,7 +317,6 @@ footer {
   .middle,
   .right-end {
     display: block;
-
     max-width: 150vw;
     margin-top: 50px;
     line-height: 1.8;
