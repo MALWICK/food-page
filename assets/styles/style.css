@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #fff;
   margin: auto;
 }
 
@@ -14,9 +14,6 @@ body {
   background-color: #fff;
   list-style: none;
   display: grid;
-  /*  display: flex;   
- */ /*   justify-content: space-around; 
- */
   gap: 30%;
   font-size: 0.8rem;
   grid-template-columns: auto auto auto;
@@ -31,8 +28,6 @@ body {
   top: 0;
   width: 75%;
   align-content: center;
-  /*    display: block;
- */
 }
 
 main {
@@ -61,7 +56,6 @@ main {
 
 .album1 {
   height: auto;
-  /*  width: 64%; */
   margin: auto;
   padding: 1%;
 }
@@ -80,7 +74,6 @@ main {
 }
 
 .resto {
-  /* width: 13.6vw; */
   width: 92%;
   height: 45vh;
   object-fit: cover;
@@ -89,7 +82,6 @@ main {
 
 .album2 {
   height: auto;
-  /*   width: 64%; */
   margin: auto;
   padding: 1%;
 }
@@ -151,12 +143,11 @@ main {
 .active:hover {
   color: rgb(23, 22, 22);
   background-color: #f8fafa;
-
   border-radius: 1 solid black 5px;
 }
 
 .biography {
-  background-color: #ffffff;
+  background-color: #fff;
   text-align: center;
   line-height: 2;
   width: 64%;
