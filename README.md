@@ -4,8 +4,6 @@
 
 ![Chef](/assets/styles/images/chef.png)
 
-![cherries] (/assets/styles/images/cherries.png)
-
 ## AUTHOR
 
     This project was made by "Humphrey"
