@@ -2,7 +2,7 @@
 
 ## App
 
-![Chef](/assets/styles/images/chef.png)
+![Chef](/assets/images/Screenshot%20from%202022-11-15%2013-09-22.png)
 
 ## AUTHOR
 
