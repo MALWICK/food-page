@@ -28,6 +28,7 @@ body {
   top: 0;
   width: 75%;
   align-content: center;
+  margin-bottom: 2%;
 }
 
 main {
@@ -55,7 +56,6 @@ main {
 }
 
 .album1 {
-  margin-top: 3%;
   height: auto;
   margin: auto;
   padding: 1%;
