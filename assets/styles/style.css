@@ -33,7 +33,7 @@ body {
 
 main {
   max-width: 1224px;
-  width: 68%;
+  width: 100vw;
   margin: auto;
   background-color: #fff;
   align-items: center;
@@ -361,7 +361,6 @@ footer {
 
   .gallery2 .p {
     font-size: medium;
-
     line-height: 1;
   }
 }
