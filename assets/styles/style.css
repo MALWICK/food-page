@@ -190,10 +190,6 @@ main {
   width: 55px;
   height: 55px;
 }
-/* 
-.middle .highs {
-  vertical-align: middle;
-} */
 
 .middle p {
   display: flex;
