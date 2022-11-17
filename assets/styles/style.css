@@ -360,6 +360,10 @@ footer {
   .pagination a {
     padding: 0.6rem;
   }
+
+  .gallery2 .p {
+    font-size: medium;
+  }
 }
 
 @media (max-width: 320px) {
