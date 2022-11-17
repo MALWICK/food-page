@@ -47,9 +47,7 @@ main {
 .left-end,
 .middle,
 .right-end {
-  width: 64%; /* 
-  display: block; */
-  /*  margin-top: 50px; */
+  width: 64%;
   line-height: 2;
   font-size: medium;
   height: fit-content;
@@ -308,6 +306,7 @@ footer {
   .bar {
     width: 100%;
   }
+  
   .resto {
     width: 15vw;
     height: 30vh;
