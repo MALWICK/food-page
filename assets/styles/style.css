@@ -424,12 +424,6 @@ footer {
     height: fit-content;
   }
 
-  .middle p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
   .middle {
     margin: 4%;
     width: 35%;
@@ -454,12 +448,16 @@ footer {
   }
 
   .right-end {
-    padding: 10%;
+    padding: 6%;
     margin: 2%;
+  }
+
+  .left-end {
+    padding: 6%;
   }
 
   .middle {
     margin: 4%;
-    width: 70%;
+    width: 60%;
   }
 }
