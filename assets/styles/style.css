@@ -180,7 +180,8 @@ main {
 }
 
 .cook {
-  max-width: 100%;
+  max-width: 1200px;
+  width: 95%;
   height: 60vh;
   align-items: center;
   object-fit: cover;
@@ -351,8 +352,9 @@ footer {
   }
 
   .right-end span {
-    padding: 5px;
+    padding: 6px;
     line-height: 3;
+    font-size: small;
   }
 
   .pagination a {
@@ -375,6 +377,7 @@ footer {
     width: 98vw;
     padding: 2%;
   }
+
 
   .resto {
     width: 100%;
@@ -420,7 +423,7 @@ footer {
   }
 
   .cook {
-    width: 100%;
+    width: 90vw;
     height: fit-content;
   }
 
