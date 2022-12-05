@@ -215,10 +215,9 @@ hr {
   color: white;
 }
 
-
 .workx {
   color: white;
-  padding: 1px;
+  padding: 10px;
   font-size: small;
   border-radius: 1px solid #fff;
   font-family: Arial, Helvetica, sans-serif;
@@ -348,12 +347,12 @@ footer {
     width: 100%;
     margin-top: 20px;
     font-size: medium;
-    line-height: 1.8;
+    line-height: 1.7;
   }
 
   .right-end span {
-    padding: 1px;
-    line-height: 1;
+    padding: 5px;
+    line-height: 3;
   }
 
   .pagination a {
@@ -364,12 +363,17 @@ footer {
     font-size: medium;
     line-height: 1;
   }
+
+  span .workx {
+    font-size: small;
+  }
 }
 
 @media (max-width: 600px) {
   main {
     display: block;
     width: 98vw;
+    padding: 2%;
   }
 
   .resto {
@@ -408,7 +412,6 @@ footer {
   }
 
   .bar {
-    /* justify-content: space-around; */
     margin-bottom: 10%;
   }
 
@@ -427,10 +430,17 @@ footer {
     align-items: center;
   }
 
-
+  .middle {
+    margin: 4%;
+    width: 35%;
+  }
 }
 
 @media (max-width: 320px) {
+  .intro {
+    gap: 18.3%;
+  }
+
   .resto,
   .restor {
     height: 50vh;
@@ -438,5 +448,18 @@ footer {
 
   .gallery1 {
     margin-top: 25%;
+  }
+  .right-end span {
+    line-height: 2.5;
+  }
+
+  .right-end {
+    padding: 10%;
+    margin: 2%;
+  }
+
+  .middle {
+    margin: 4%;
+    width: 70%;
   }
 }
