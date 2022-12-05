@@ -28,7 +28,7 @@ body {
   top: 0;
   width: 100%;
   align-content: center;
-  margin-bottom: 2%;
+  margin-bottom: 3%;
 }
 
 main {
@@ -61,6 +61,7 @@ main {
 
 .middle {
   width: 100%;
+  display: block;
 }
 
 .pf {
@@ -194,7 +195,6 @@ main {
 .middle p {
   display: flex;
   flex-direction: row;
-  gap: 10px;
 }
 
 hr {
@@ -214,6 +214,7 @@ hr {
   background-color: #9a9494;
   color: white;
 }
+
 
 .workx {
   color: white;
@@ -365,7 +366,7 @@ footer {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 600px) {
   main {
     display: block;
     width: 98vw;
@@ -373,7 +374,7 @@ footer {
 
   .resto {
     width: 100%;
-    height: fit-content;
+    height: 79vh;
     object-fit: cover;
     display: block;
     gap: 5%;
@@ -381,7 +382,7 @@ footer {
 
   .restor {
     width: 100%;
-    height: fit-content;
+    height: 79vh;
     object-fit: cover;
     display: block;
     gap: 5%;
@@ -390,7 +391,7 @@ footer {
   .gallery2,
   .gallery1 {
     display: block;
-    margin-top: 3%;
+    margin-top: 10%;
     background-size: cover;
   }
 
@@ -407,21 +408,35 @@ footer {
   }
 
   .bar {
-    justify-content: space-around;
+    /* justify-content: space-around; */
+    margin-bottom: 10%;
   }
 
   .intro {
-    gap: 17%;
+    gap: 30%;
   }
 
   .cook {
     width: 100%;
-    height: 20vh;
+    height: fit-content;
   }
 
   .middle p {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+
+}
+
+@media (max-width: 320px) {
+  .resto,
+  .restor {
+    height: 50vh;
+  }
+
+  .gallery1 {
+    margin-top: 25%;
   }
 }
