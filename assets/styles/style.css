@@ -289,7 +289,7 @@ hr {
 
 .right-end span {
   padding: 8px;
-  line-height: 2.6;
+  line-height: 2.9;
 }
 
 footer {
@@ -378,7 +378,6 @@ footer {
     padding: 2%;
   }
 
-
   .resto {
     width: 100%;
     height: 79vh;
@@ -419,7 +418,12 @@ footer {
   }
 
   .intro {
-    gap: 30%;
+    gap: 16.2%;
+  }
+
+  .resto,
+  .restor {
+    height: 50vh;
   }
 
   .cook {
@@ -429,18 +433,7 @@ footer {
 
   .middle {
     margin: 4%;
-    width: 35%;
-  }
-}
-
-@media (max-width: 320px) {
-  .intro {
-    gap: 18.3%;
-  }
-
-  .resto,
-  .restor {
-    height: 50vh;
+    width: 60%;
   }
 
   .gallery1 {
@@ -457,10 +450,5 @@ footer {
 
   .left-end {
     padding: 6%;
-  }
-
-  .middle {
-    margin: 4%;
-    width: 60%;
   }
 }
